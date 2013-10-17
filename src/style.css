@@ -1,0 +1,94 @@
+
+* { text-shadow: none !important; }
+
+.bg-gray {
+	background: #ffffff !important;
+}
+
+#naboo_album_duration, #naboo_album_download, .naboo_album_label, .naboo_album_video, #naboo_album_second,
+.track .icons, .nav-tabs, #naboo_playlist_duration_nbsong, .naboo_head_buttons_options, .followers_social,
+.shadow, .shadow_top
+#naboo_livebar, #player_action_buy, #player_action_share, .cell-volume, #player_option_others,
+#naboo_menu_list_app, #naboo_menu_list_library .cat-menu, #naboo_menu_list_discover .cat-menu, #naboo_menu_discover_picks, #naboo_menu_discover_recommendation, #naboo_menu_discover_tops,
+#livemenu,
+#tab_review_link, #tab_review_content, #naboo_menu_display_cover {
+	display: none !important;
+}
+
+.page-header .player .cell-search .wrapper {
+	background-color: inherit !important;
+	box-shadow: inherit !important;
+}
+
+.page-header .player .cell-player .wrapper {
+	background-color: inherit !important;
+	background: inherit !important;
+	box-shadow: inherit !important;
+	border: 0 !important;
+}
+
+.cell.cell-player {
+	border-left: 1px solid #272727 !important;
+	border-right: 1px solid #272727 !important;
+}
+
+.progress {
+	border: 0 !important;
+	background: #222 !important;
+}
+
+.progress-bar.current {
+	background: #fff !important;
+}
+
+#player_track_progress_handler {
+	background: #73777A !important;
+	border-radius: 9px !important;
+	width: 14px !important;
+	height: 14px !important;
+}
+
+.cover img {
+	width: 100px !important;
+	height: 100px !important;
+}
+
+.naboo_artist_head_infos.head_content {
+	min-height: inherit !important;
+}
+
+#naboo_menu_list_library {
+	border: 0 !important;
+}
+
+#naboo_menu_infos .covers {
+	height: 91px !important;
+	cursor: none;
+}
+
+#naboo {
+	top: 70px !important;
+}
+
+#dzSearch {
+	width: 40% !important;
+}
+
+.wrapper:first-child {
+	-background: #fff !important;
+}
+
+
+.rainbow {
+	background: #3557a7; /* Old browsers */
+	background: -moz-linear-gradient(left,  #3557a7 0%, #3557a7 17%, #c42026 17%, #c42026 34%, #fecf07 34%, #fecf07 51%, #3557a7 51%, #3557a7 67%, #149647 67%, #149647 83%, #c42026 83%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3557a7), color-stop(17%,#3557a7), color-stop(17%,#c42026), color-stop(34%,#c42026), color-stop(34%,#fecf07), color-stop(51%,#fecf07), color-stop(51%,#3557a7), color-stop(67%,#3557a7), color-stop(67%,#149647), color-stop(83%,#149647), color-stop(83%,#c42026)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #3557a7 0%,#3557a7 17%,#c42026 17%,#c42026 34%,#fecf07 34%,#fecf07 51%,#3557a7 51%,#3557a7 67%,#149647 67%,#149647 83%,#c42026 83%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #3557a7 0%,#3557a7 17%,#c42026 17%,#c42026 34%,#fecf07 34%,#fecf07 51%,#3557a7 51%,#3557a7 67%,#149647 67%,#149647 83%,#c42026 83%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #3557a7 0%,#3557a7 17%,#c42026 17%,#c42026 34%,#fecf07 34%,#fecf07 51%,#3557a7 51%,#3557a7 67%,#149647 67%,#149647 83%,#c42026 83%); /* IE10+ */
+	background: linear-gradient(to right,  #3557a7 0%,#3557a7 17%,#c42026 17%,#c42026 34%,#fecf07 34%,#fecf07 51%,#3557a7 51%,#3557a7 67%,#149647 67%,#149647 83%,#c42026 83%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3557a7', endColorstr='#c42026',GradientType=1 ); /* IE6-9 */
+
+	height: 4px !important;
+	overflow: hidden;
+}
